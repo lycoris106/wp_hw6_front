@@ -18,7 +18,7 @@ then
 fi
 
 printf "Installing frontend dependencies...\n"
-npm install
+npm install --force
 printf "Completed.\n\n"
 
 printf "Setup completed successfully!\n"
