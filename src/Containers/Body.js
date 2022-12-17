@@ -23,9 +23,9 @@ import TableRow from '@mui/material/TableRow';
 
 
 
-import { useStyles } from '../hooks';
-import axios from '../api';
-import { useScoreCard } from '../hooks/useScoreCard';
+import useStyles from '../hooks/useStyles.js';
+import axios from '../api.js';
+import { useScoreCard } from '../hooks/useScoreCard.js';
 
 const Wrapper = styled.section`
   display: flex;

@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import axios from '../api.js';
-import useScoreCard from '../hooks/useScoreCard.js';
+import { useScoreCard } from '../hooks/useScoreCard.js';
 
 const Wrapper = styled.section`
   display: flex;
