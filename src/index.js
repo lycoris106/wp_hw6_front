@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./Containers/App";
+import App from "./Containers/App.js";
 import reportWebVitals from "./reportWebVitals";
-import { ScoreCardProvider } from "./hooks/useScoreCard";
+import { ScoreCardProvider } from "./hooks/useScoreCard.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
